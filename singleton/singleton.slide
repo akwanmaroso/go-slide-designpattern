@@ -1,0 +1,25 @@
+Design Pattern Singleton
+9 Maret 2021
+
+Akwan Maroso
+akwanmaroso@gmail.com
+
+* What is Singleton Pattern ?
+- Singleton pattern adalah pola buatan yang digunakan untuk memastikan setiap kelas yang kita buat hanya memiliki satu instance saja.
+- Pola penerapan Singleton sangat dikomendasikan untuk class/object yang hanya diperlukan satu kali dalam eksekusi program kita.
+- Contohnya, Koneksi ke database
+
+
+* What problem is the singleton pattern design trying to solve?
+- instansiasi
+
+* Example Implementation Singleton (1)
+.code main.go /^//SINGLETON/,/^//END/
+
+* Example Implementation Singleton (2)
+.play main.go  /^//MAIN/,/^//END/
+
+* More resource
+- https://refactoring.guru/design-patterns/singleton
+- https://golangbyexample.com/singleton-design-pattern-go
+
