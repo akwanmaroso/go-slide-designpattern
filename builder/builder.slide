@@ -1,0 +1,35 @@
+Design Pattern Builder
+30 April 2021
+
+Akwan Maroso
+akwanmaroso@gmail.com
+
+* What is ?
+Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
+* When To Use ?
+- Use Builder pattern when the object constructed is big and requires multiple steps. It helps in less size of the constructor.  The construction of the house becomes simple and it does not require a large constructor
+- When a different version of the same product needs to be created.
+
+* Example Implementation Builder Pattern (1)
+- House
+.code main.go /^//HOUSE/,/^//END/
+
+* Example Implementation Builder Pattern (2)
+.code main.go /^//NORMAL_BUILDER/,/^//END/
+
+* Example Implementation Builder Pattern (3)
+.code main.go /^//IGLOO_BUILDER/,/^//END/
+
+* Example Implementation Builder Pattern (4)
+- Director
+.code main.go /^//DIRECTOR/,/^//END/
+
+* Example Implementation Singleton (5)
+- Main
+.play main.go  /^//MAIN/,/^//END/
+
+* More resource
+- https://refactoring.guru/design-patterns/singleton
+- https://golangbyexample.com/singleton-design-pattern-go
+

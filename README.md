@@ -1,3 +1,3 @@
 # Slides
 
-[Golang Basics](https://talks.godoc.org/github.com/akwanmaroso/go-slide-designpattern)
+[Singleton](https://talks.godoc.org/github.com/akwanmaroso/go-slide-designpattern/singleton/singleton.slide)
